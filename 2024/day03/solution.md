@@ -29,7 +29,7 @@ r-- - othefr user only has read permission
 july 01 - date and time of file updated
 file_name - file name will be at the end
 
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day03/image/task%202.png)
+![image](https://https://github.com/ManjuGGitHub/90DaysofDevOps/blob/master/2024/day03/image/task%202.png)
 
 Task 3: Check the last 10 commands you have run.
 
