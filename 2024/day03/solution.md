@@ -2,6 +2,15 @@
 # Basic Linux Commands - Day 3
 
 Task 1: View the content of a file and display line numbers.
+![Manju] steps to create file with any content and view the same file:
+    step1: create file demo.txt with [hello everyone, welcome to #90daysofdevops challenge.....]
+        cat > demo.txt #press ENTER, note: there are few other way to create demo.txt, you can use anyone ex: vim,nano
+        hello everyone
+        welcome to #90daysofdevops
+        my name is Manju and connect me on LinkedIn - Manjunath Gudur
+        #Press ctrl+d to save and exit
+    step2: to view demo.txt content with line number
+        cat -n demo.txt #refer task 1.png for hands on screenshot
 
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day03/image/task%201.png)
 
