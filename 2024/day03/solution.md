@@ -29,7 +29,32 @@ r-- - othefr user only has read permission
 july 01 - date and time of file updated
 file_name - file name will be at the end
 
-![image](https://https://github.com/ManjuGGitHub/90DaysofDevOps/blob/master/2024/day03/image/task%202.png)
+Access modes/ Permissions
+r - 4   - to add read permissions to file
+w - 2   - to add write permissions to file
+x - 1   - to add executable permissions to file
+
+if you want to give read, write and execute permissions - 7 [ 4+2+1 ]
+if you want to give only read and execute permissions - 5 [ 4+1 ]
+if you want to give only read permissions - 4
+
+if you want to give read,write and execute permission to owner and read,execute permission to group and only read permission to other user
+give 754 permissions
+
+To apply permissions you can use chmod command
+    chmod 754 demo.txt
+
+    I have created demo.txt for explaination
+    -rw-rw-r-- 1 manju-devops devops_learner 38 Oct  7 11:49 demo.txt
+
+    from the above:
+    we can confirm that demo.txt is file by first letter i.e -
+    we can see that owner[manju-devops] has read write permission and group[devops_learner] has read, write permissions and other user only has read permissions.
+
+    To change the permission of the owner to have read write and execute permission, use below command
+    chmod 754 demo.txt
+    
+    -rwx------ 1 manju-devops devops_learner 38 Oct  7 11:49 demo.txt
 
 Task 3: Check the last 10 commands you have run.
 
