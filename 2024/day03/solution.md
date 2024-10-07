@@ -55,6 +55,7 @@ To apply permissions you can use chmod command
     chmod 754 demo.txt
     
     -rwx------ 1 manju-devops devops_learner 38 Oct  7 11:49 demo.txt
+![image](https://github.com/ManjuGGitHub/90DaysofDevOps/blob/master/2024/day03/image/task%202.png)
 
 Task 3: Check the last 10 commands you have run.
 
