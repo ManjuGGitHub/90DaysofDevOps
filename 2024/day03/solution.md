@@ -16,6 +16,19 @@ Steps to create file with any content and view the same file:
 
 Task 2: Change the access permissions of files to make them readable, writable, and executable by the owner only.
 
+file system has below details for every file/directory in Linux
+-rwxr-xr-- 1 owner group 1 july 01 file_name
+
+- represents its file
+d represents its directory
+l represents its link
+rwx - owner of this file has read, write and execute permissions[any user/root]
+r-x - group has read and execute permissions
+r-- - othefr user only has read permission
+1 - represents symbolic link
+july 01 - date and time of file updated
+file_name - file name will be at the end
+
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day03/image/task%202.png)
 
 Task 3: Check the last 10 commands you have run.
